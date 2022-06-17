@@ -54,7 +54,7 @@
         </div>
         </ul>
         <!-- nav icons -->
-        <aside class="nav__icons">
+        <div class="nav__icons">
           <div class="nav-cart__container">
             <img class="nav__icon--cart" src="images/icon-cart.svg" alt="">
             <span class="show-amount"> 3 </span>
@@ -85,7 +85,7 @@
             </div>
           </section>
           <!-- cart modal ends -->
-        </aside>
+        </div>
         <!-- end of nav icons -->
       </nav>
     </div>
@@ -95,7 +95,7 @@
   <!-- hero section -->
   <main class="hero" aria-label="Hero section">
     <!-- product modal -->
-    <section class="images-wrapper--modal" aria-modal="true" aria-labelledby="modal-heading">
+    <section class="images-wrapper--modal" role="modal" aria-modal="true" aria-labelledby="modal-heading">
       <h3 id="modal-heading" class="visually-hidden"> modal of the product </h3>
       <!-- cancel button -->
       <div class="cancel-container">
@@ -107,7 +107,7 @@
       </div>
       <!-- cancel button ends-->
       <!-- slider -->
-      <div class="slider-container" role="slider">
+      <div class="slider-container">
         <!-- previous-->
         <div class="slider slider--previous">
           <img src="images/icon-previous.svg" alt="">
@@ -155,17 +155,17 @@
           the weather can offer.
         </p>
         <!-- prices  -->
-        <aside class="price-container">
+        <div class="price-container">
           <div class="discounts_wrapper">
             <span class="reduced__price"> $125.00 </span>
             <span class="product__discount"> 50% </span>
           </div>
           <p class="original__price"> $250.00 </p>
-        </aside>
+        </div>
         <!-- buttons -->
-        <aside class="buttons-wrapper">
+        <div class="buttons-wrapper">
           <!-- select amount of product -->
-          <div class="total-products-buttons" aria-label="product buttons">
+          <div class="total-products-buttons">
             <div class="decrease-container">
               <!-- decrease -->
               <img id="decrease" src="images/icon-minus.svg" alt="decrease">
@@ -186,7 +186,7 @@
             <span id="btn-cart"> Add to cart </span>
           </button>
           <!-- add to cart button ends -->
-        </aside>
+        </div>
         <!-- buttons ends-->
       </section>
       <!-- description ends -->
