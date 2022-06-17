@@ -26,7 +26,8 @@ This is a solution to the [E-commerce product page challenge on Frontend Mentor]
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
+- javascript
+- sass
 
 ## Author
 - Frontend Mentor - [@Thedeezat](https://www.frontendmentor.io/profile/@Thedeezat)
